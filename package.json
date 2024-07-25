@@ -10,7 +10,8 @@
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "emulators": "firebase emulators:start --import=./export",
-    "watch:functions": "yarn --cwd ./functions tsc -w"
+    "watch:functions": "yarn --cwd ./functions tsc -w",
+    "build": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
